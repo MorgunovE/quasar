@@ -1,1 +1,19 @@
 // app global css in Sass form
+.text-grand-hotel
+    font-family: 'Grand Hotel', "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif
+
+.mobile-screen
+    @media (max-width: $breakpoint-xs-max)
+        display: block
+    @media (min-width: $breakpoint-sm-min)
+        display: none
+
+.desktop-screen
+    @media (max-width: $breakpoint-xs-max)
+        display: none
+    @media (min-width: $breakpoint-sm-min)
+        display: block
+
+.constrain
+    max-width: 975px
+    margin: 0 auto
